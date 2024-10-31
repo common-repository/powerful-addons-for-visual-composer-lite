@@ -1,0 +1,19 @@
+{
+  "elements": {
+    "photo": {
+      "settings": {
+        "name": "Powerful Photo",
+        "metaThumbnailUrl": "[publicPath]/thumbnail-powerful-photo.jpg",
+        "metaPreviewUrl": "[publicPath]/preview-powerful-photo.jpg",
+        "metaDescription": "An Powerful Photo addon take your photo / image from Media / URL with some effects & make it attractive."
+      }
+    }
+  },
+  "categories": {
+    "Misc": {
+      "elements": [
+        "photo"
+      ]
+    }
+  }
+}

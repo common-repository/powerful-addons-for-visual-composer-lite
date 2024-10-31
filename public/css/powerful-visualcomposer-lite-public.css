@@ -1,0 +1,354 @@
+/**
+ * All of the CSS for public-facing admin functionality.
+ */
+
+.visual-composer_page_pavc div#wpbody-content {
+    padding-bottom: 40px;
+}
+.notice:not(.pavc-notice) {
+	display: none;
+}
+.pavc-flex {
+	-js-display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-align-content: center;
+	-ms-flex-line-pack: center;
+	align-content: center;
+}
+.pavc-admin-top-links {
+    font-weight: bold;
+    letter-spacing: 0.1px;
+	font-style: italic;
+}
+.plug-author-title {
+	font-size: 25px;
+    font-weight: bold;
+}
+.pavc-container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+.visual-composer_page_pavc .postbox span.dashicons {
+	float: right;
+	color: #1281a6;
+}
+.pavc-bulk-actions-wrap .updating-message:before {
+	color: #ffffff;
+}
+#pavc-menu-page .pavc-notice {
+    margin: 0 auto;
+}
+.pavc-menu-page-wrapper a {
+	text-decoration: none;
+}
+.pavc-bulk-actions-wrap {
+	flex: auto;
+	text-align: right;
+}
+.pavc-bulk-actions-wrap .bulk-action {
+	color: #ffffff;
+	transition: 0.5s;
+    border-color: #aed13b;
+    background: #aed13b;
+}
+.pavc-bulk-actions-wrap .bulk-action:hover {
+	color: #ffffff;
+	background: #09aeef;
+    border-color: #09aeef;
+}
+.pavc-general-list .inside {
+	padding: 0;
+	margin: 0;
+}
+.pavc-widget-list a {
+	text-decoration: none;
+}
+.pavc-widget-list li a:before {
+	display: inline-block;
+	margin-right: 2px;
+	font: normal 20px/1 'dashicons';
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	vertical-align: top;
+}
+.pavc-container .postbox .hndle {
+	background: #fff;
+	border-bottom: 2px solid #e6e6e6;
+}
+.pavc-container .postbox ul {
+	margin: 0;
+}
+.pavc-widget-list a {
+	line-height: 1.6;
+}
+.pavc-widget-list a:focus {
+	box-shadow: none;
+}
+.pavc-menu-page-wrapper .pavc-container .clear {
+	overflow: auto;
+    visibility: visible;
+    width: auto;
+    height: auto;
+}
+.visual-composer_page_pavc #wpcontent{
+	padding: 0;
+}
+/* Header */
+.pavc-menu-page-header.general .pavc-container,
+.pavc-menu-page-header.branding .pavc-container,
+.pavc-container.pavc-general {
+	max-width: 1200px;
+}
+.pavc-title {
+	flex: auto;
+	align-content: flex-start;
+	text-align: left;
+	margin: 15px 0;
+}
+.pavc-title a,
+.pavc-title span {
+	display: block;
+	outline: none;
+	box-shadow: none;
+	font-size: 1.5rem;
+	color: #333333;
+	font-weight: 500;
+}
+
+.pavc-menu-page-header {
+	background-color: #fff;
+	text-align: center;
+	margin-bottom: 20px;
+	box-shadow: 0 2px 0 #efefef, 0 2px 2px #ececec;
+}
+
+.pavc-title > a {
+    display: flex;
+    align-items: center;
+}
+.pavc-title .pavc-plugin-version {
+    background-color: #fdb715;
+    border-radius: 3px;
+    font-size: 0.5em;
+    font-weight: 400;
+    margin-left: 10px;
+    padding: 2px 7px;
+	color: #fff;
+	margin-top: 5px;
+}
+
+.pavc-widget-list .pavc-widget-wrapper.pro-addon.activate {
+    border: unset !important;
+}
+
+/* Popular extensions */
+a.bulk-action.pavc-addons-activate-all.button {
+    margin-right: 10px;
+}
+
+.pavc-widget-title.free-addon:after {
+	content: "Free";
+}
+
+.pavc-widget-title.pro-addon:after {
+	content: "Pro";
+}
+
+.pavc-widget-title:after {
+    color: #fff;
+    background: #0584b5;
+    font-size: 0.6em;
+    font-weight: 600;
+    position: relative;
+    padding: 0.3em 0.6em;
+    top: -1px;
+    left: 12px;
+    letter-spacing: 0.5px;
+    line-height: 1em;
+    text-transform: none;
+    text-transform: uppercase !important;
+    border-radius: 2px;
+}
+
+/* New admin widgets UI */
+.pavc-widgets-boxes .pavc-widget-wrapper,
+.pavc-container.pavc-connect #side-sortables .postbox {
+	border-radius: 6px;
+	transition: 0.5s;
+    box-shadow: 0 5px 15px 7px #eee;
+}
+
+.pavc-widgets-boxes .pavc-widget-wrapper h2,
+.pavc-container.pavc-connect #side-sortables .postbox h2 {
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+.pavc-widgets-boxes .pavc-widget-wrapper:hover,
+.pavc-container.pavc-connect #side-sortables .postbox:hover {
+    box-shadow: 0 5px 15px 7px #ddd;
+}
+
+.pavc-widget-list a:before {
+	display: inline-block;
+	margin-right: 2px;
+	font: normal 20px/1 'dashicons';
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	vertical-align: top;
+}
+
+/* Update icon. */
+.pavc-widget-list .updating-message:before {
+	color: #fff;
+	content: "\f463";
+}
+
+/* Spins the update icon. */
+.pavc-widget-list .updating-message:before {
+	-webkit-animation: rotation 2s infinite linear;
+	animation: rotation 2s infinite linear;
+}
+
+.pavc-widgets-boxes .pavc-widget-wrapper {
+	width: calc(33.33% - 57px);
+	float: left;
+	padding: 12px 20px;
+	margin-bottom: 30px;
+	margin-right: 20px;
+	transition: 0.3s;
+	background: #fff;
+    border-radius: 6px;
+}
+.pavc-widgets-boxes .pavc-widget-wrapper:nth-child(3n){
+    margin-right: 0;
+}
+.pavc-widgets-boxes .pavc-widget-wrapper:nth-child(4n){
+    clear: both;    
+}
+
+.pavc-widgets-heading .pavc-vc-icon {
+    width: 30px;
+    height: 24px;   
+    margin-right: 10px; 
+}
+
+.pavc-widgets-boxes a.pavc-activate-widget,
+.pavc-widgets-boxes a.pavc-deactivate-widget,
+.pavc-widgets-boxes a.get-pro-pavc {
+    background: #09aeef;
+    padding: 5px 10px;
+    border-radius: 3px;
+	color: #fff;
+	font-size: 12px;
+	text-transform: uppercase;
+    float: right;
+    letter-spacing: 0.5px;
+	margin-top: -2px;
+}
+
+.pavc-widget-wrapper  h3 {
+	border-bottom: 1px solid #fdb818;
+	padding-bottom: 24px;
+	margin-top: 10px;
+}
+
+.pavc-widget-list .pavc-widget-wrapper.activate {
+	border: 1.5px solid #0584b5 !important;
+	box-shadow: 0 5px 15px 7px #ddd;
+}
+
+.pavc-general #post-body-content .widgets.postbox {
+	margin-bottom: 30px;
+}
+
+/* Footer connections */
+
+.pavc-container.pavc-connect {
+    padding: 20px 0 0;
+}
+
+.pavc-container.pavc-connect #side-sortables {
+    display: flex;
+    min-height: unset !important;
+}
+
+#poststuff .pavc-widgets-heading {
+	padding: 10px 12px;
+}
+
+#post-body-content, .edit-form-section {
+	margin-bottom: 0;
+}
+
+.pavc-container.pavc-connect #side-sortables .postbox:not(:last-child) {
+	margin-right: 20px;
+}
+
+.pavc-general #poststuff #post-body.columns-2 {
+	margin-right: 0;
+}
+
+#poststuff #post-body.columns-2 #side-sortables {
+	width: 100%;
+}
+
+/* Responsive Alignment */
+
+@media(max-width: 768px) {
+
+	.pavc-container.pavc-general #post-body-content {
+		float: unset !important;
+	}
+    .pavc-widgets-boxes a.pavc-activate-widget, 
+    .pavc-widgets-boxes a.pavc-deactivate-widget, 
+    .pavc-widgets-boxes a.get-pro-pavc {
+		margin: 0 5px 15px 0px;
+	}
+	
+	.pavc-widgets-boxes .pavc-widget-wrapper {
+		width: calc(96% - 20px);
+		float: left;	
+	}
+
+	.pavc-widget-wrapper .pavc-widget-title {
+		float: left;
+	}
+
+    div.pavc-bulk-actions-wrap {
+        margin-top: 20px;
+	}
+
+	.pavc-container.pavc-connect #side-sortables .postbox {
+        margin-right: unset !important;
+    }
+	
+	.pavc-widget-wrapper h3 {
+		border-bottom: unset;
+		text-align: center;
+		margin-bottom: 40px;
+	}
+}
+
+@media(max-width: 1026px) {
+    .pavc-container.pavc-connect #side-sortables {
+        display: unset;
+    }
+    .pavc-container.pavc-connect #side-sortables .postbox {
+        margin-right: unset;
+    }
+}

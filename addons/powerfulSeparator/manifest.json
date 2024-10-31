@@ -1,0 +1,19 @@
+{
+  "elements": {
+    "powerfulSeparator": {
+      "settings": {
+        "name": "Powerful Separator",
+        "metaThumbnailUrl": "[publicPath]/thumbnail-powerful-separator.png",
+        "metaPreviewUrl": "[publicPath]/preview-powerful-separator.png",
+        "metaDescription": "An Powerful Separator addon to break your content with a line, line with icon, line with image or line with text."
+      }
+    }
+  },
+  "categories": {
+    "Misc": {
+      "elements": [
+        "powerfulSeparator"
+      ]
+    }
+  }
+}

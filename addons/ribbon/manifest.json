@@ -1,0 +1,19 @@
+{
+  "elements": {
+    "ribbon": {
+      "settings": {
+        "name": "Powerful Ribbon",
+        "metaThumbnailUrl": "[publicPath]/thumbnail-ribbon-element.jpg",
+        "metaPreviewUrl": "[publicPath]/preview-ribbon-element.png",
+        "metaDescription": "An Powerful Ribbon addon to add beauty of your site. Use it to showcase your deal or heading."
+      }
+    }
+  },
+  "categories": {
+    "Misc": {
+      "elements": [
+        "ribbon"
+      ]
+    }
+  }
+}

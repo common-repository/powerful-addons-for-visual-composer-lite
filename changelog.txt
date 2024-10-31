@@ -1,0 +1,14 @@
+Version 1.2.0 Saturday, 01st July 2020
+- New: Introduced Powerful Photo Element.
+- Improovement: Spacer element will use Visual Composer's responsive media breakpoint constants.
+- Tweak - PAVC Admin page design improved.
+
+Version 1.1.0 Monday, 29th June 2020
+- New: Introduced Powerful Spacer Element
+- Fix: Plugin's page "Configure" action link not working
+
+Version 1.0.0 Thursday, 04th June 2020
+- Initial release
+- New: Introduced Powerful Ribbon Element
+- New: Introduced Powerful Separator Element
+- New: Introduced Powerful Heading Element

@@ -1,0 +1,19 @@
+{
+  "elements": {
+    "powerfulHeading": {
+      "settings": {
+        "name": "Powerful Heading",
+        "metaThumbnailUrl": "[publicPath]/thumbnail-powerful-heading.jpg",
+        "metaPreviewUrl": "[publicPath]/preview-powerful-heading.jpg",
+        "metaDescription": "An Powerful Heading addon to write attractive headings & make them look attractive too."
+      }
+    }
+  },
+  "categories": {
+    "Misc": {
+      "elements": [
+        "powerfulHeading"
+      ]
+    }
+  }
+}

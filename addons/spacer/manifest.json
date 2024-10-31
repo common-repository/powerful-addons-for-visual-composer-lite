@@ -1,0 +1,19 @@
+{
+  "elements": {
+    "spacer": {
+      "settings": {
+        "name": "Powerful Spacer",
+        "metaThumbnailUrl": "[publicPath]/thumbnail-powerful-spacer.jpg",
+        "metaPreviewUrl": "[publicPath]/preview-powerful-spacer.jpg",
+        "metaDescription": "An Powerful Spacer addon to insert extra space between two elemnts or enywhere on the page."
+      }
+    }
+  },
+  "categories": {
+    "Misc": {
+      "elements": [
+        "spacer"
+      ]
+    }
+  }
+}
